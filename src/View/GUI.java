@@ -16,10 +16,10 @@ public class GUI {
     private CountActionListener countActionListener;
 
     // Other Variables
-    private int count = 0;
+    private int count = 1;
 
     public GUI() {
-        this.frame = new JFrame("My First GUI");
+        this.frame = new JFrame("Button Clicker");
         this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.frame.setSize(300,300);
 
